@@ -1,13 +1,71 @@
-h1 {
-    font-family: Arial, sans-serif; /* Escolha uma fonte adequada */
-    font-size: 36px; /* Tamanho da fonte */
+.lojinha-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Escolha uma fonte adequada */
+    font-size: 2.5em; /* Tamanho da fonte */
     color: #333; /* Cor do texto */
     text-align: center; /* Alinhamento do texto */
     text-transform: uppercase; /* Transforma o texto em maiúsculas */
     letter-spacing: 2px; /* Espaçamento entre letras */
     margin-bottom: 20px; /* Espaçamento abaixo do elemento */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra do texto */
-    border: 2px solid #333; /* Borda sólida de 2px com a cor #333 */
-    padding: 10px 20px; /* Preenchimento interno */
-    border-radius: 10px; /* Raio de curvatura da borda */
+}
+
+.lojinha-title i {
+    font-size: 1.5em; /* Tamanho do ícone */
+    vertical-align: middle; /* Alinhamento vertical */
+    margin-right: 5px; /* Espaçamento entre o ícone e o texto */
+}
+
+.loja-header {
+    background-color: #4CAF50; /* Cor de fundo do cabeçalho */
+    padding: 20px; /* Espaçamento interno */
+    color: #fff; /* Cor do texto */
+    text-align: center; /* Alinhamento do texto */
+}
+
+.loja-title {
+    font-size: 2em; /* Tamanho da fonte */
+    margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
+
+.loja-title i {
+    font-size: 1.5em; /* Tamanho do ícone */
+    margin-right: 5px; /* Espaçamento entre o ícone e o texto */
+}
+
+.loja-nav ul {
+    list-style-type: none; /* Remove marcadores de lista */
+    padding: 0; /* Remove preenchimento padrão da lista */
+}
+
+.loja-nav ul li {
+    display: inline; /* Coloca os itens da lista lado a lado */
+    margin-right: 20px; /* Espaçamento entre os itens */
+}
+
+.loja-nav ul li a {
+    color: #fff; /* Cor do texto dos links */
+    text-decoration: none; /* Remove sublinhado dos links */
+}
+
+.loja-nav ul li a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+
+/* Estilo para o rodapé */
+footer.bg-dark {
+    background-color: #28a745 !important; /* Verde */
+    color: #fff !important; /* Branco */
+}
+
+footer.bg-dark a {
+    color: #fff !important; /* Branco */
+}
+
+footer.bg-dark a:hover {
+    color: #f8f9fa !important; /* Branco mais claro quando hover */
+}
+
+.produto-item{
+    color: red;
+    font-weight: bold;
 }
