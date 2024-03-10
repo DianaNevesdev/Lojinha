@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     
     <link rel="stylesheet" href="css/style.css">
+
+    
 </head>
 <body>
     <header class="loja-header">
@@ -44,60 +46,67 @@
             </tr>
         </thead>
         <tbody>
+
             <tr>
                 <td>
                     <img src="img/produto_1.jpg" alt="Produto 1" width="100">
                 </td>
                 <td>
                     <div>Celular Iphone 11 Pro 256Gb</div>
-                    <div><span class="produto-item"> Código:</span> 101103380</div>
-                    <div><span class="produto-item">Cor: </span> Max Dorado</div>
+                    <div><span class="produto-item">Código:</span> 101103380</div>
+                    <div><span class="produto-item">Cor:</span> Max Dorado</div>
                 </td>
-                <td>$3,689.10</td>
+                <td id="valor_1">$3,689.10</td>
                 <td>
-                    <span class="badge text-bg-danger"><i class="bi bi-dash"></i></span>
-                    0
-                    <span class="badge text-bg-success"><i class="bi bi-plus"></i></span>
+                    <span class="badge text-bg-danger"onclick="alterarqtd(1,'-')"><i class="bi bi-dash"></i></span>
+                    <span id="qtd_1">0</span>
+                    <span class="badge text-bg-success" onclick="alterarqtd(1,'+')"><i class="bi bi-plus"></i></span>
                 </td>
-                <td>0</td>
+                <td id="total_1">0</td>
             </tr>
+        
             <tr>
                 <td>
                     <img src="img/produto_2.webp" alt="Produto 2" width="100">
                 </td>
                 <td>
                     <div>Notebook ASUS E510MA-BR1348WS</div>
-                    <span class="produto-item"> Código:</span> 1256479545</div>
-                    <div><span class="produto-item">Cor: </span> Cinza</div>
+                    <div><span class="produto-item">Código:</span> 1256479545</div>
+                    <div><span class="produto-item">Cor:</span> Cinza</div>
                 </td>
-                <td>$1,571.65</td>
+                <td id="valor_2">$1,571.65</td>
                 <td>
-                    <span class="badge text-bg-danger"><i class="bi bi-dash"></i></span>
-                    0
-                    <span class="badge text-bg-success"><i class="bi bi-plus"></i></span>
+                    <span class="badge text-bg-danger"onclick="alterarqtd(2,'-')"><i class="bi bi-dash"></i></span>
+                    <span id="qtd_2">0</span>
+                    <span class="badge text-bg-success" onclick="alterarqtd(2,'+')"><i class="bi bi-plus"></i></span>
                 </td>
-                <td>0</td>
+                <td id="total_2">0</td>
             </tr>
+        
             <tr>
                 <td>
                     <img src="img/produto_3.jpg" alt="Produto 3" width="100">
                 </td>
                 <td>
                     <div>Smart TV 50” 4K LED TCL RP630</div>
-                    <span class="produto-item"> Código:</span> 1025655215</div>
-                    <div><span class="produto-item">Cor: </span> Preto</div>
+                    <div><span class="produto-item">Código:</span> 1025655215</div>
+                    <div><span class="produto-item">Cor:</span> Preto</div>
                 </td>
-                <td>$2,564.05</td>
+                <td id="valor_3">$2,564.05</td>
                 <td>
-                    <span class="badge text-bg-danger"><i class="bi bi-dash"></i></span>
-                    0
-                    <span class="badge text-bg-success"><i class="bi bi-plus"></i></span>
+                    <span class="badge text-bg-danger"onclick="alterarqtd(3,'-')"><i class="bi bi-dash"></i></span>
+                    <span id="qtd_3">0</span>
+                    <span class="badge text-bg-success" onclick="alterarqtd(3,'+')"><i class="bi bi-plus"></i></span>
                 </td>
-                <td>0</td>
+                <td id = "total_3" > 0 </td>
             </tr>
-            
+        
         </tbody>
+        
     </table>
+
+   
+
     <footer class="bg-dark text-light py-5">
         <div class="container">
             <div class="row">
@@ -135,6 +144,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="js/funçoes.js"></script>
       
 </div>
 </body>
